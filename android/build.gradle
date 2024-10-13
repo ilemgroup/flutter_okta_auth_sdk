@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "com.bluestork.flutter_okta_auth_sdk"
     compileSdkVersion 31
 
     compileOptions {
